@@ -116,11 +116,44 @@ nav ul li a {
 }
 
 .row { 
-    display: flex; 
+    display: flex;
     justify-content: space-around; 
     align-items: flex-start; 
     padding: 20px; 
     background-color: #D00027; 
     border-radius: 4px; 
     margin: 20px;
+}
+
+.record {
+    background-color:#D00027
+}
+
+footer {
+	background-color: #333;
+	padding: 1em;
+	text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+footer > span {
+	color: white;
+}
+
+footer > a {
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 0.8rem;
+}
+
+footer > p {
+    color: white
+}
+
+.text-uppercase {
+    text-transform: uppercase;
 }
