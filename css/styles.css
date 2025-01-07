@@ -224,3 +224,22 @@ details section {
 .gallery-item img:hover {
     transform: scale(1.05);
 }
+
+.text-center {
+    text-align: center;
+    background-color: #D00027;
+}
+
+@media screen and (max-width:992px) {
+    .row {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+@media screen and (max-width:700px) {
+    nav ul {
+        flex-direction: column;
+    }
+}
