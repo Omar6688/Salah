@@ -32,130 +32,135 @@
         </nav>
     </header>
 
+	<div class="contact">
 
-   <fieldset>
+		<fieldset>
 
-    <h1>Meet King of Egypt Mo Salah </h1>
-    <p>Complete our quiz for your chance to win!</p>
-   </fieldset>
-
-    <hr>
-
-	<form action="thankyou.html">
-    
-     
-    <fieldset>
-		<legend>Your details</legend>
-
-		<div>
-			<label for="name-field">Name</label>
-			<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
-		</div>
-		<div>
-			<label for="email-field">Email</label>
-			<input id="email-field" type="email" name="email" placeholder="Your email" required>
-		</div>
-        <div>
-			<label for="country-name">Your Country Name</label>
-			<input id="country-field" type="text" name="country" placeholder="Country" required>
-		</div
-        
-
-		<label for="age">Age</label>
-		<select id="age" name="age" required>
-			<option value="under-20">Under 20</option>
-			<option value="20s">20-29</option>
-			<option value="30s">30-39</option>
-			<option value="40s">40-49</option>
-			<option value="50s">50-59</option>
-			<option value="60+">60+</option>
-		</select>
-
-	</fieldset>
-
-    <hr>
-
+			<h1>Meet King of Egypt Mo Salah </h1>
+			<p>Complete our quiz for your chance to win!</p>
+		   </fieldset>
 		
-		<fieldset>
-			<legend>QUIZ</legend>
+			<hr>
+		
+			<form action="thankyou.html">
 			
-            <div>
-				<label for="anfield">Have you ever been to ANFIELD?</label>
-				<input id="anfield" list="times" name="anfield" required>
-				<datalist id="times">
-					<option value="Once">
-					<option value="Twice">
-					<option value="3-5 times">
-					<option value="Over five times">
-					<option value="Never">
-				</datalist>
-			</div>
+			 
+			<fieldset>
+				<legend>Your details</legend>
+		
+				<div>
+					<label for="name-field">Name</label>
+					<input id="name-field" type="text" name="full_name" placeholder="Your name" required>
+				</div>
+				<div>
+					<label for="email-field">Email</label>
+					<input id="email-field" type="email" name="email" placeholder="Your email" required>
+				</div>
+				<div>
+					<label for="country-name">Your Country Name</label>
+					<input id="country-field" type="text" name="country" placeholder="Country" required>
+				</div
+				
+		
+				<label for="age">Age</label>
+				<select id="age" name="age" required>
+					<option value="under-20">Under 20</option>
+					<option value="20s">20-29</option>
+					<option value="30s">30-39</option>
+					<option value="40s">40-49</option>
+					<option value="50s">50-59</option>
+					<option value="60+">60+</option>
+				</select>
+		
+			</fieldset>
+		
+			<hr>
+		
+				
+				<fieldset>
+					<legend>QUIZ</legend>
+					
+					<div>
+						<label for="anfield">Have you ever been to ANFIELD?</label>
+						<input id="anfield" list="times" name="anfield" required>
+						<datalist id="times">
+							<option value="Once">
+							<option value="Twice">
+							<option value="3-5 times">
+							<option value="Over five times">
+							<option value="Never">
+						</datalist>
+					</div>
+		
+		
+					<p>How many goals did Salah score for Liverpool as of December 31,2024?</p>
+		
+					<input id="50-100goals" name="goals" value="50-100" type="radio" required>
+					<label for="50-100goals">50-100 Goals</label>
+		
+					<input id="100-150goals" name="goals" value="100-150" type="radio" required>
+					<label for="100-150goals">101-150 Goals</label>
+		
+					<input id="150-200goals" name="goals" value="150-200" type="radio" required>
+					<label for="150-200goals">151-200 Goals</label>
+		
+					<input id="200plus-goals" name="goals" value="200plus" type="radio" required>
+					<label for="200plus-goals">201 or more Goals</label>
+		
+					<p>How many times did Salah win the Premier league Golden Boot??</p>
+		
+					<input id="once" name="golden-boot" value="once" type="radio" required>
+					<label for="once">Once</label>
+		
+					<input id="twice" name="golden-boot" value="twice" type="radio" required>
+					<label for="twice">Twice</label>
+		
+					<input id="three-times" name="golden-boot" value="three" type="radio" required>
+					<label for="three-times">Three Golden Boots></label>
+		
+					<input id="never" name="golden-boot" value="never" type="radio" required>
+					<label for="never">Never</label>
+		
+					<p>Which team has Salah scored the most against in the Premier league?</p>
+					<div>
+						<input type="checkbox" id="spurs-checkbox" name="teams" value="spurs">
+						<label for="spurs-checkbox">Tottenham Hotspur</label>
+					</div>
+					<div>
+						<input type="checkbox" id="mc-checkbox" name="teams" value="mc">
+						<label for="mc-checkbox">Manchester City</label>
+					</div>
+					<div>
+						<input type="checkbox" id="mu-checkbox" name="teams" value="mu">
+						<label for="mu-checkbox">Manchester United</label>
+					</div>
+					<div>
+						<input type="checkbox" id="chelsea-checkbox" name="teams" value="Chelsea">
+						<label for="chelsea-checkbox">Chelsea</label>
+					</div>
+					<div>
+						<input type="checkbox" id="av-checkbox" name="teams" value="av">
+						<label for="av-checkbox">Aston villa</label>
+					</div>	
+				</fieldset>
+		
+				<hr>
+		
+				<fieldset>
+					<legend>Message</legend>
+					<label for="message">Whrite a message for King of Egypt</label>
+					<br>
+					<textarea id="message" rows="4" cols="87" name="message" placeholder="Enter your message here ..."></textarea>
+				</fieldset>
+		
+		
+				<input type="submit" value="Enter prize draw">
+				<input type="reset" value="Reset Form">
+		
+			</form>
+
+	</div>
 
 
-			<p>How many goals did Salah score for Liverpool as of December 31,2024?</p>
-
-			<input id="50-100goals" name="goals" value="50-100" type="radio" required>
-			<label for="50-100goals">50-100 Goals</label>
-
-			<input id="100-150goals" name="goals" value="100-150" type="radio" required>
-			<label for="100-150goals">101-150 Goals</label>
-
-			<input id="150-200goals" name="goals" value="150-200" type="radio" required>
-			<label for="150-200goals">151-200 Goals</label>
-
-			<input id="200plus-goals" name="goals" value="200plus" type="radio" required>
-			<label for="200plus-goals">201 or more Goals</label>
-
-			<p>How many times did Salah win the Premier league Golden Boot??</p>
-
-			<input id="once" name="golden-boot" value="once" type="radio" required>
-			<label for="once">Once</label>
-
-			<input id="twice" name="golden-boot" value="twice" type="radio" required>
-			<label for="twice">Twice</label>
-
-			<input id="three-times" name="golden-boot" value="three" type="radio" required>
-			<label for="three-times">Three Golden Boots></label>
-
-			<input id="never" name="golden-boot" value="never" type="radio" required>
-			<label for="never">Never</label>
-
-			<p>Which team has Salah scored the most against in the Premier league?</p>
-			<div>
-				<input type="checkbox" id="spurs-checkbox" name="teams" value="spurs">
-				<label for="spurs-checkbox">Tottenham Hotspur</label>
-			</div>
-			<div>
-				<input type="checkbox" id="mc-checkbox" name="teams" value="mc">
-				<label for="mc-checkbox">Manchester City</label>
-			</div>
-			<div>
-				<input type="checkbox" id="mu-checkbox" name="teams" value="mu">
-				<label for="mu-checkbox">Manchester United</label>
-			</div>
-			<div>
-				<input type="checkbox" id="chelsea-checkbox" name="teams" value="Chelsea">
-				<label for="chelsea-checkbox">Chelsea</label>
-			</div>
-			<div>
-				<input type="checkbox" id="av-checkbox" name="teams" value="av">
-				<label for="av-checkbox">Aston villa</label>
-			</div>	
-		</fieldset>
-
-        <hr>
-
-		<fieldset>
-			<legend>Message</legend>
-			<label for="message">Whrite a message for King of Egypt</label>
-			<br>
-			<textarea id="message" rows="4" cols="87" name="message" placeholder="Enter your message here ..."></textarea>
-		</fieldset>
-
-
-		<input type="submit" value="Enter prize draw">
-		<input type="reset" value="Reset Form">
-
-	</form>
 	</body>
 </html>
