@@ -7,10 +7,6 @@ body {
     flex-direction: column;
 }
 
-.aside-img {
-    margin-right: 20px;
-}
-
 .logo {
     padding: 5px;
     margin-left: 15px;
@@ -244,6 +240,7 @@ details section {
     margin: auto;
 }
 
+/* Mobile */
 @media screen and (max-width:768px) {
 
     body {
@@ -307,6 +304,10 @@ details section {
         object-fit: none;
         height: 720px;
     }
+
+    .aside-img {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width:920px) {
@@ -318,6 +319,7 @@ details section {
 }
 
 
+/* Desktop */
 @media screen and (min-width:769px) {
     body {
         width: 100%;
@@ -349,6 +351,10 @@ details section {
         display: flex;
         justify-content: center;
         object-fit: cover;
+    }
+
+    .aside-img {
+        margin-right: 20px;
     }
     
 }
