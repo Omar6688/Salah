@@ -2,7 +2,7 @@
 
 The Mo Salah Fan Website is a visually engaging, responsive fan page dedicated to celebrating the legacy of Mohamed Salah. The project showcases modern web development practices, including responsive design, semantic HTML5, and CSS3 styling. This website was built as part of my learning journey in the Code Institute Full Stack Developer Course, highlighting key skills in user-centric design, coding standards, and deployment.
 
-![Responsive Design Preview](assets/readme-img/am-i-responsive.png)
+![Responsive Design Preview](images/start-up-readme.png)
 
 [View the project here](https://github.com/Omar6688/Salah)
 
@@ -12,14 +12,14 @@ The Mo Salah Fan Website is a visually engaging, responsive fan page dedicated t
 
 ### [User Experience (UX)](#user-experience-ux)
    * [User Stories](#user-stories)
-   *[Design](#design)
+   * [Design](#design)
 
 ### [Features](#features)
    * [Existing Features](#existing-features)
-   *[Features Left to Implement](#features-left-to-implement)
+   * [Features Left to Implement](#features-left-to-implement)
 
 ### [Technologies Used](#technologies-used)
-   *[Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
 ### [Testing](#testing)
    * [Validation Results](#validation-results)
@@ -79,10 +79,10 @@ This fan page is designed to celebrate Mohamed Salah's incredible football journ
     * Home Page: A welcoming introduction to Mo Salah’s legacy.    
     * About Page: Detailed biography of Mohamed Salah.    
     * Achievements Page: howcases key career milestones.    
-    *Records Page: Lists records held by Mo Salah.    
-    *Gallery Page: Displays an engaging collection of images.     
-    *Contact Page: Includes a form to contact the fan club and a quiz entry.
-    *Quiz Entry Received Page: Confirmation page after form submission.   
+    * Records Page: Lists records held by Mo Salah.    
+    * Gallery Page: Displays an engaging collection of images.     
+    * Contact Page: Includes a form to contact the fan club and a quiz entry.
+    * Quiz Entry Received Page: Confirmation page after form submission.   
 
 
 ---
@@ -95,47 +95,47 @@ This fan page is designed to celebrate Mohamed Salah's incredible football journ
 ### Existing Features
 
 * **Header and Navigation
-   *Contains links to Home, About, Achievements, Records, Gallery, and Contact.
-   *Responsive hamburger menu for mobile devices.
+   * Contains links to Home, About, Achievements, Records, Gallery, and Contact.
+   * Responsive hamburger menu for mobile devices.
 
     ![Header and Navigation](images/header-navigation.png)
 
 * **Home Page**
-   *Includes a welcoming hero section featuring Mo Salah’s image.
-   *A navigation bar with links to all pages, ensuring easy access.
-   *A footer with social media links and copyright information.
+   * Includes a welcoming hero section featuring Mo Salah’s image.
+   * A navigation bar with links to all pages, ensuring easy access.
+   * A footer with social media links and copyright information.
 
     ![Home Page](images/home-page.png)
 
 * **About Page**
-   *A clean and structured layout highlighting Mohamed Salah's biography.
-   *Includes collapsible sections (using <details> tags) to provide concise information on key moments in his life.    
+   * A clean and structured layout highlighting Mohamed Salah's biography.
+   * Includes collapsible sections (using <details> tags) to provide concise information on key moments in his life.    
 
     ![About Page](images/about-bio.png)
 
 * **Achievments Page**
-*Highlights major career milestones in a list format.
-    *Organized with headings for different teams or competitions (e.g., Liverpool, Basel, International).    
+   * Highlights major career milestones in a list format.
+   * Organized with headings for different teams or competitions (e.g., Liverpool, Basel, International).    
 
     ![Achievments Pages](images/achievment.png)
 
 * **Records Page**
-    *Displays records in categorized sections, such as Club Records, International Records, and Premier League Records.
-    *Incorporates a full-width embedded video for engagement.
+   * Displays records in categorized sections, such as Club Records, International Records, and Premier League Records.
+   * Incorporates a full-width embedded video for engagement.
     
 ![Records Pages](images/records.png)
 
 * **Gallery Page**
-   *A responsive grid layout showcasing images of Mo Salah.
-   *Includes hover effects for image interactivity.
-   *Option to implement a lightbox feature for larger image previews in future iterations.
+   * A responsive grid layout showcasing images of Mo Salah.
+   * Includes hover effects for image interactivity.
+   * Option to implement a lightbox feature for larger image previews in future iterations.
 
 ![Gallery Page](images/gallery.png)
 
 * **Contact Page**
-   *Features a user-friendly contact form for quiz entry or inquiries.
-   *Form includes fields for name, email, country, age, and a message box.
-   *A "Thank You" page is displayed upon successful form submission.
+   * Features a user-friendly contact form for quiz entry or inquiries.
+   * Form includes fields for name, email, country, age, and a message box.
+   * A "Thank You" page is displayed upon successful form submission.
 
 ![Contact Page](images/contact.png)
 
@@ -155,10 +155,10 @@ This fan page is designed to celebrate Mohamed Salah's incredible football journ
 
 ## Features Left to Implement
 
-*Add animations to the gallery for enhanced user engagement.
-*Backend integration for form submissions.
-*Leaderboard to display quiz results.
-*Lightbox feature for viewing gallery images in larger formats.
+* Add animations to the gallery for enhanced user engagement.
+* Backend integration for form submissions.
+* Leaderboard to display quiz results.
+* Lightbox feature for viewing gallery images in larger formats.
 * Dynamic content updates for new records and achievements.
 
 ---
@@ -194,19 +194,19 @@ This project was tested extensively to ensure compatibility and usability across
 <summary>index.html
 </summary>
 
-![Main Page validation result](/assets/readme-img/index-validation.png)
+![Main Page validation result](images/html-validation.png))
 </details>
 <details>
 <summary>projects.html
 </summary>
 
-![About Page validation result](/assets/readme-img/projects-page-validation.png)
+![About Page validation result](images/html-validation.png)
 </details>
 <details>
 <summary>thank-you.html
 </summary>
 
-![Sign Up page validation result](/assets/readme-img/thank-you-validation.png)
+![Sign Up page validation result](images/html-validation.png)
 </details>
 
 <details>
@@ -243,18 +243,23 @@ The following tests were conducted to ensure full functionality across pages:
 </summary>
 
 ![Home Page lighthouse report](images/main-page-d.png)
+
 </details>
+
 <details>
-<summary>projects.html
+<summary>gallery.html
 </summary>
 
 ![Gallery lighthouse report](images/gallery-d.png)
+
 </details>
+
 <details>
+
 <summary>achievments.html
 </summary>
 
-![Sign Up Page lighthouse report](images/achievment-d.png)
+![Achievments Page lighthouse report](images/achievment-d.png)
 </details>
 
 #### Mobile
@@ -264,17 +269,19 @@ The following tests were conducted to ensure full functionality across pages:
 
 ![Home Page lighthouse report](images/main-page-m.png)
 </details>
+
 <details>
-<summary>projects.html
+<summary>gallery.html
 </summary>
 
 ![Gallery lighthouse report](images/gallery-m.png)
 </details>
+
 <details>
 <summary>achievments.html
 </summary>
 
-![Sign Up Page lighthouse report](images/achievment-m.png)
+![Achievments Page lighthouse report](images/achievment-m.png)
 </details>
 
 ---
