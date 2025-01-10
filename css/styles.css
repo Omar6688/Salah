@@ -12,14 +12,6 @@ body {
     margin-left: 15px;
 }
 
-/* .hero {
-    width: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    object-fit: cover;
-} */
-
 .roboto-thin {
     font-family: "Roboto", serif;
     font-weight: 100;
@@ -106,10 +98,6 @@ header {
     display:flex;
 }
 
-/* nav {
-    margin-right: 5%;
-} */
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -140,13 +128,10 @@ nav ul li a {
     background-color:#D00027;
 }
 
-/* footer { 
-	background-color: #333;
-	padding: 1em;
-	text-align: center;
+.iframe {
     width: 100%;
-    /* position: fixed; 
- /* }   */
+    height: 620px;
+}
 
 footer > span {
 	color: white;
@@ -171,7 +156,6 @@ footer > p {
     list-style-type: none;
     padding-left: 0;
 }
-
 
 main {
     padding: 20px;
@@ -244,27 +228,11 @@ details section {
         width: 110%;
     }
 
-    /* nav {
-        display: block;
-        position: relative;
-        width: fit-content;
-        padding-right: 1rem;
-    } */
-
     nav ul {
         flex-direction: column;
     }
 
-
     nav {
-        /* margin-right: 5%;
-        position: absolute;
-        background-color: #333;
-        width: 100%;
-        left: 0;
-        padding: 0 1rem;
-        display: none;
-        top:0; */
         display: none;
     }
     
@@ -287,8 +255,6 @@ details section {
         background-color: #333;
         padding: 1em;
         text-align: center;
-        /* width: 100%; */
-        /* position: fixed; */
         bottom: 0;
         right: 0;
         height: 50px;
@@ -311,10 +277,8 @@ details section {
     .row {
         flex-direction: column;
         align-items: center;
-    }
-    
+    } 
 }
-
 
 /* Desktop */
 @media screen and (min-width:769px) {
@@ -335,8 +299,6 @@ details section {
         background-color: #333;
         padding: 1em;
         text-align: center;
-        /* width: 100%; */
-        /* position: fixed; */
         bottom: 0;
         right: 0;
         height: 50px;
@@ -350,7 +312,7 @@ details section {
         object-fit: cover;
     }
 
-    .aside-img {
+    /* .aside-img { */
         margin-right: 20px;
     }
     
