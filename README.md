@@ -200,7 +200,7 @@ This project was tested extensively to ensure compatibility and usability across
 <summary>projects.html
 </summary>
 
-![Projects Page validation result](/assets/readme-img/projects-page-validation.png)
+![About Page validation result](/assets/readme-img/projects-page-validation.png)
 </details>
 <details>
 <summary>thank-you.html
