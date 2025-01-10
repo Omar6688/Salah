@@ -213,7 +213,7 @@ This project was tested extensively to ensure compatibility and usability across
 <summary>style.css
 </summary>
 
-![CSS validation result](/assets/readme-img/style-validation.png)
+![CSS validation result](images/css%20validation.png)
 </details>
 
 ### Manual Testing
@@ -242,19 +242,19 @@ The following tests were conducted to ensure full functionality across pages:
 <summary>index.html
 </summary>
 
-![Home Page lighthouse report](/assets/readme-img/main-page-analysis.png)
+![Home Page lighthouse report](images/main-page-d.png)
 </details>
 <details>
 <summary>projects.html
 </summary>
 
-![Gallery lighthouse report](/assets/readme-img/projects-page-analysis.png)
+![Gallery lighthouse report](images/gallery-d.png)
 </details>
 <details>
-<summary>thank-you.html
+<summary>achievments.html
 </summary>
 
-![Sign Up Page lighthouse report](/assets/readme-img/thank-you-analysis.png)
+![Sign Up Page lighthouse report](images/achievment-d.png)
 </details>
 
 #### Mobile
@@ -262,19 +262,19 @@ The following tests were conducted to ensure full functionality across pages:
 <summary>index.html
 </summary>
 
-![Home Page lighthouse report](/assets/readme-img/main-page-mobile-analysis.png)
+![Home Page lighthouse report](images/main-page-m.png)
 </details>
 <details>
 <summary>projects.html
 </summary>
 
-![Gallery lighthouse report](/assets/readme-img/projects-mobile-analysis.png)
+![Gallery lighthouse report](images/gallery-m.png)
 </details>
 <details>
-<summary>thank-you.html
+<summary>achievments.html
 </summary>
 
-![Sign Up Page lighthouse report](/assets/readme-img/thank-you-mobile-analysis.png)
+![Sign Up Page lighthouse report](images/achievment-m.png)
 </details>
 
 ---
