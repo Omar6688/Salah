@@ -126,6 +126,8 @@ nav ul li a {
 
 .record {
     background-color:#D00027;
+    margin-left: 5%;
+    font-size: large;
 }
 
 .iframe {
@@ -225,7 +227,7 @@ details section {
 @media screen and (max-width:768px) {
 
     body {
-        width: 110%;
+        width: 100%;
     }
 
     nav ul {
@@ -262,7 +264,7 @@ details section {
 
     .hero {
         width: 100%;
-        overflow: overlay;
+        overflow:auto;
         justify-content: center;
         object-fit: none;
         height: 720px;
@@ -312,10 +314,9 @@ details section {
         object-fit: cover;
     }
 
-    /* .aside-img { */
+    .aside-img { 
         margin-right: 20px;
-    }
-    
+    }  
 }
 
 
